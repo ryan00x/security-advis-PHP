@@ -70,10 +70,3 @@ Contributing security advisories is as easy as it can get:
   * Make sure your file validates by running `php -d memory_limit=-1 validator.php` from the root of this project.
     This script needs some dependencies to be installed via composer, so you need to
     run `composer install` before.
-
-If some affected code is available through different Composer entries (like
-when you have read-only subtree splits of a main repository), duplicate the
-information in several files.
-
-[1]: https://github.com/fabpot/local-php-security-checker
-[2]: https://github.com/marketplace/actions/the-php-security-checker
